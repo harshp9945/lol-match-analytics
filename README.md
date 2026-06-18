@@ -23,7 +23,7 @@
 
 ## Live Demo
 
-> 🚀 **[Launch Interactive Dashboard →](https://lol-match-analytics.streamlit.app)**
+> 🚀 **[Launch Interactive Dashboard →](https://lol-match-analytics-hp.streamlit.app)**
 
 ```bash
 # Or run locally
