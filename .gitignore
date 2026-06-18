@@ -1,0 +1,22 @@
+# Dataset — download from Kaggle
+data/
+
+# Generated plots (embedded in notebooks as outputs)
+plots/
+
+# Python
+__pycache__/
+*.pyc
+*.egg-info/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+
+# Archives
+*.zip
+
+# Reports
+reports/
