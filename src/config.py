@@ -14,7 +14,7 @@ PLOTS_DIR   = ROOT_DIR / "plots"
 REPORTS_DIR = ROOT_DIR / "reports"
 
 # ── Dataset ────────────────────────────────────────────────────────────────────
-GAMES_CSV           = DATA_DIR / "games.csv"
+GAMES_CSV = DATA_DIR / "games.csv" if (DATA_DIR / "games.csv").exists() else DATA_DIR / "games_sample.csv"
 CHAMPION_INFO_JSON  = DATA_DIR / "champion_info.json"
 CHAMPION_INFO_2_JSON= DATA_DIR / "champion_info_2.json"
 SPELL_INFO_JSON     = DATA_DIR / "summoner_spell_info.json"

@@ -1,5 +1,9 @@
 # Dataset — download from Kaggle
-data/
+data/*
+!data/games_sample.csv
+!data/champion_info.json
+!data/champion_info_2.json
+!data/summoner_spell_info.json
 
 # Generated plots (embedded in notebooks as outputs)
 plots/
